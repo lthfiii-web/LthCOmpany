@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="box">
+            <p>Your email is submitted successfully</p>
+        </div>
+    </div>
+    <header>
+        <h3>LTH</h3>
+        <nav class="nav-link">
+            <a href="#home">Home</a>
+            <a href="#About">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Contact</a>
+        </nav>
+    </header>
+    <div class="home" id="home">
+        <div class="home-text">
+            <p>DIGITAL COMPANY</p>
+            <h1>Building Digital Experiences</h1>
+            <span>
+                We create modern websites and digital
+                solutions for your business.
+            </span>
+            <a href="#">Explore More</a>
+        </div>
+        <div class="home-image">
+            <img src="ai.png" alt="Coding">
+        </div>
+    </div>
+    <section class="section_container" id="About">
+        <h2>About</h2>
+        <h1>Who We Are</h1>
+        <div class="section_grid">
+            <div class="section_card">
+                <span>
+                    <i class="ri-double-quotes-l"></i>
+                </span>
+                <h4>Who we are</h4>
+                <p>
+                    We are a digital team focused on creating modern websites and digital experiences for businesses.
+                </p>
+                <img src="asset/12510806-removebg-preview.png" alt="user">
+                <h5>Ahmad Luthfi</h5>
+                <h6>Web Developer</h6>
+            </div>
+            <div class="section_card">
+                <span>
+                    <i class="ri-double-quotes-l"></i>
+                </span>
+                <h4>Our Vision</h4>
+                <p>
+                    To build simple, modern, and useful digital experiences that help businesses grow.
+                </p>
+                <img src="asset/cowo-removebg-preview.png" alt="user">
+                <h5>Nizam ahmad luthfi</h5>
+                <h6>Frontend</h6>
+            </div>
+            <div class="section_card">
+                <span>
+                    <i class="ri-double-quotes-l"></i>
+                </span>
+                <h4>Our Mission</h4>
+                <p>
+                    We turn ideas into responsive, user-friendly, and functional digital solutions.
+                </p>
+                <img src="asset/cewe.jpg" alt="user">
+                <h5>Luthfi ahmad Nizam</h5>
+                <h6>UI/UX</h6>
+            </div>
+        </div>
+    </section>
+    <section class="Service" id="services">
+        <div class="service-intro">
+            <p class="service-kicker">LET'S WORK TOGETHER</p>
+            <h2>Have a project in mind?</h2>
+            <p>Tell us what you need and we will help turn your idea into a clear digital experience.</p>
+        </div>
+        <div class="wrapper">
+            <form>
+                <div class="input-field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your name">
+                </div>
+                <div class="input-field">
+                    <label for="email">
+                        Email <span>*</span>
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
+                </div>
+                <div class="input-field">
+                    <label for="msg">Message</label>
+                    <textarea name="msg" id="msg" required placeholder="Describe your problem"></textarea>
+                </div>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
